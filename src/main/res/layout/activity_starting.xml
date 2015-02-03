@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:padding="10dp">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Create a Journey"
+        android:id="@+id/bCJ"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Join a Plan"
+        android:id="@+id/bJP"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bCJ"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Update Details"
+        android:id="@+id/bUD"
+        android:layout_gravity="center"
+        android:layout_below="@+id/bJP"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Contact Fellow Riders"
+        android:id="@+id/bCFR"
+        android:layout_gravity="center"
+        android:layout_below="@+id/bUD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
